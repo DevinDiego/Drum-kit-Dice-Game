@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Take a Break</title>
+
+  <!-- Bootstrap Links -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome Script -->
+  <script src="https://kit.fontawesome.com/27d99801b9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav id="navigation" class="navbar navbar-expand-lg navbar-dark" style="background-color: #000; border: 2px solid #383838">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#navigation">Navigate</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link playdice" href="#playGame">Play Dice<i class="fas fa-dice dice-icon"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link playdice" href="#title">Play Drums<i class="fas fa-drum drum-icon"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pricing" href="#pricing">Pricing<i class="fas fa-dollar-sign price-icon"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="topOfPage">
+    <h1 class="headerH1">Take a break!</h1>
+    <img class="profile-img" src="images/break.jpg" alt="My Image">
+  </section>
+
+  <section id="playGame">
+    <button type="button" name="button" class="myBtn" onClick="window.location.reload();">Press to spin Dice!</button>
+    <h3><a class="navbar-brand topOfPage-Refresh" href="#navigation">Top of Page</a></h3>
+    <h1 class="playGameHeaderH1"></h1>
+    <div class="container-fluid myContainer-fluid">
+      <div class="row dice-row">
+        <div class="col-lg-6">
+          <h2 class="playersH2">Player One</h2>
+          <img src="images/dice6.png" alt="Dice6 Image">
+        </div>
+        <div class="col-lg-6">
+          <h2 class="playersH2">Player Two</h2>
+          <img src="images/dice6.png" alt="Dice6 Image">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="pricing">
+    <a class="navbar-brand tpp" href="#navigation">Top of Page</a>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center pricing-row">
+      <div class="col">
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h4 class="my-0 fw-normal">Novice</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$1</h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Unlimited users</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary">Donate</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h4 class="my-0 fw-normal">Pro</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$5</h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Unlimited users</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary">Donate</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h4 class="my-0 fw-normal">Enterprise</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$10</h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Unlimited users</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary">Donate</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h1 id="title" class="drum-header">Drum Kit</h1>
+    <a class="navbar-brand tpp" href="#navigation">Top of Page</a>
+    <div class="set">
+      <button class="d drum">d</button>
+      <button class="j drum">j</button>
+      <button class="k drum">k</button>
+      <button class="l drum">l</button><br>
+      <button class="w drum">w</button>
+      <button class="a drum">a</button>
+      <button class="s drum">s</button>
+      < </div>
+  </section>
+
+<a href="#"></a>
+  <section id="contact">
+    <hr>
+    <h1 class="contactH1">Contact</h1>
+    <a href="https://www.linkedin.com/in/devin-ordean-1728ba190/"><i class="fab fa-linkedin fa-3x contact-icon"></i></a>
+    <a href="https://github.com/DevinDiego"><i class="fab fa-github fa-3x contact-icon"></i></a>
+    <hr>
+    <p class="copyrightP"><i class="fas fa-copyright copyright"></i>Devin Ordean 2020</p>
+  </section>
+
+  <!-- jQuery include -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- javaScript include -->
+  <script src="js/index.js" charset="utf-8"></script>
+</body>
+</html>

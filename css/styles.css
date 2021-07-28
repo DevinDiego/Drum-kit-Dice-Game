@@ -1,0 +1,230 @@
+body {
+  background-image: url("../images/smoke.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+hr {
+  border: 3px dotted red;
+  border-bottom: none;
+  color: #FFF;
+  margin: auto;
+  text-align: center;
+  width: 40%;
+}
+
+.navbar-brand {
+  padding-right: 50px;
+}
+
+.playdice {
+  margin-right: 50px;
+}
+
+.pricing {
+  margin-right: 50px;
+}
+
+.dice-icon {
+  color: #FFF;
+  padding-left: 7px;
+}
+
+.drum-icon {
+  color: #FFF;
+  padding-left: 7px;
+}
+
+.price-icon {
+  color: #FFF;
+  padding-left: 7px;
+}
+
+.refreshToPlay {
+  color: #FFFFF0;
+  padding-top: 3%;
+}
+
+.refresh-icon-left {
+  padding-right: 20px;
+}
+
+.refresh-icon-right {
+  padding-left: 20px;
+}
+
+.headerH1 {
+  color: #FFFFF0;
+  font-size: 6rem;
+  padding: 3% 15% 9% 15%;
+  text-shadow: 4px 4px 4px red;
+}
+
+.profile-img {
+  border: 3px solid red;
+  border-radius: 10%;
+  margin-bottom: 18%;
+  opacity: .80;
+  width: 30%;
+}
+
+.myBtn {
+  background-color: #000;
+  border: 2px solid red;
+  color: #FFF;
+  font-size: 2rem;
+  margin-top: 5%;
+}
+
+.myContainer-fluid {
+  padding-bottom: 25%;
+}
+
+.dice-row {
+  margin: 4% 15%;
+}
+
+.playGameHeaderH1 {
+  color: #FFFFF0;
+  font-size: 6rem;
+  padding: 3% 15% 4% 15%;
+  text-shadow: 4px 4px 4px red;
+}
+
+.playersH2 {
+  color: #FFFFF0;
+  font-size: 3rem;
+  padding-bottom: 2%;
+  text-shadow: 2px 2px 2px red;
+}
+
+.pricing-row {
+  padding: 10% 15% 15%;
+  margin-bottom: 5%;
+}
+
+.topOfPage-Refresh {
+  padding: 0;
+  margin: 0;
+}
+
+.tpp {
+  color: #FFF;
+  font-size: 20px;
+  padding: 10% 0 0;
+  margin: 0;
+}
+
+.card-header {
+  background-color: #383838;
+  color: #FFFFF0;
+  text-shadow: 2px 2px 2px red;
+}
+
+.card {
+  background-color: #383838;
+}
+
+.card-body {
+  color: #FFFFF0;
+}
+
+.drum-header {
+  color: #FFFFF0;
+  font-size: 5rem;
+  padding-top: 8%;
+  text-shadow: 2px 2px 2px red;
+}
+
+.a {
+  background-image: url("../images/bass-drum.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.w {
+  background-image: url("../images/snare.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.d {
+  background-image: url("../images/hi-hat.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.l {
+  background-image: url("../images/tom1.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.j {
+  background-image: url("../images/tom2.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.s {
+  background-image: url("../images/ride-cymbal.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.k {
+  background-image: url("../images/crash-cymbal.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.set {
+  background-color: #383838;
+  border: 2px solid red;
+  margin: 8% 18% 30%;
+  padding: 25px;
+}
+
+.pressed {
+  background-color: #383838;
+  opacity: .50;
+}
+
+.drum {
+  border: 2px solid red;
+  border-radius: 20%;
+  display: inline-block;
+  padding: 2% 4%;
+  font-size: 6rem;
+  text-shadow: 2px 2px 2px red;
+}
+
+.contactH1 {
+  color: #FFFFF0;
+  font-size: 3rem;
+  margin: 3% 15% 2%;
+  text-shadow: 2px 2px 2px red;
+}
+
+.contact-icon {
+  color: #FFF;
+  margin: 4%;
+}
+
+.copyright {
+  color: #FFF;
+}
+
+.copyrightP {
+  color: #FFF;
+  opacity: .50;
+  padding-top: 5%;
+}
